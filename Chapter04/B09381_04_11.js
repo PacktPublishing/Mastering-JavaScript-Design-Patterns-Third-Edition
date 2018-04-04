@@ -1,0 +1,1 @@
+generateDeathsStream(deaths).sample(1500).subscribe((item) => { /*do something */ });

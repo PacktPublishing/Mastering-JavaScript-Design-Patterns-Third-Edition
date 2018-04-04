@@ -1,0 +1,9 @@
+<script>
+    var counter = 0;
+    var button = document.getElementById('button');
+    var source = Rx.Observable.fromEvent(button, 'click');
+    var subscription = source.subscribe(function (e) {
+        counter++;
+         output.innerHTML = "Clicked " + counter + " time" + (counter > 1 ? "s" : "");
+    });
+</script>

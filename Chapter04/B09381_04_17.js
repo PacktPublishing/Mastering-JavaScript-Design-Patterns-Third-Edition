@@ -1,0 +1,1 @@
+var processors = Rx.Observable.amb(processorStream1, processorStream2);
