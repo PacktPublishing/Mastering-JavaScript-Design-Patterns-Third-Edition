@@ -1,4 +1,5 @@
 import BoxUp from '../packing/BoxUp';
+import Item from '../Item';
 
 class SideDishes extends Item {
     get packing() {
